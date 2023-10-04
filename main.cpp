@@ -1,4 +1,4 @@
-#include "Calculator.h"
+#include "Calculator_lab1.h"
 #include <iostream>
 
 int main() {
