@@ -56,7 +56,7 @@ void Calculator::do_action() {
     else throw exception();
 }
 
-void Calculator::Count(string Str) {
+void Calculator::Count() {
     stringstream StrSt(newstr);
     string elem;
     double d;
@@ -128,6 +128,6 @@ void Calculator::process_expression(string str) {
         pr = u;
     }
 
-    Count(newstr);
+    Count();
 }
 

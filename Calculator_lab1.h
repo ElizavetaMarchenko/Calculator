@@ -18,7 +18,7 @@ private:
     string newstr; //processed expression
     void create_actions(); //correlate actions with their icons
     void do_action(); //count one action
-    void Count(string expression);
+    void Count();
     read_plugin plugin;
 
 public:

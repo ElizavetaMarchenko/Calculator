@@ -10,9 +10,8 @@ public:
 	double process_expression(std::string str, double num);
 	bool is_in_plugins(std::string str);
 private:
-	std::string path = "D:\\5 семестр матмех\\наука программирования\\Calculator_lab1\\plugins\\";
+	std::string path = ".\\plugins\\";
 	std::map<std::string, double(*)(double)> plugins;
-
 };
 
 #endif 
